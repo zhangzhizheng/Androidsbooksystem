@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".DeleteActivity" >
+    
+    <TextView
+        android:id="@+id/tv2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="请输入删除图书名称"
+        android:textSize="30dp" />
+ <TextView
+       android:id="@+id/tv2_2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       android:text="图书名称" />
+    
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit2_1"/>
+      <Button android:layout_height="wrap_content"
+        android:layout_width="100dp"
+          android:layout_gravity="center"
+          android:id="@+id/btn2_1"
+          android:text="删除"
+        />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".InsertActivity" >
+
+    <TextView
+        android:id="@+id/tv1_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="请输入图书信息"
+        android:textSize="30dp" />
+
+     <TextView
+       android:id="@+id/tv1_2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       android:text="图书编号" />
+    
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit1_1"/>
+     <TextView
+       android:id="@+id/tv1_3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="图书名称" />
+
+    <EditText
+        android:id="@+id/edit1_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+     <TextView
+       android:id="@+id/tv1_4"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="图书价格" />
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numeric="decimal"
+        android:id="@+id/edit1_3"/>
+    <Button android:layout_height="wrap_content"
+        android:layout_width="100dp"
+          android:layout_gravity="center"
+          android:id="@+id/btn1_1"
+          android:text="插入"
+        />
+    
+
+</LinearLayout>

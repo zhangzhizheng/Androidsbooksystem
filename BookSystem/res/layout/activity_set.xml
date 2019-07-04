@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".SetActivity" >
+   <TextView
+        android:id="@+id/tv3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="请输入图书信息"
+        android:textSize="30dp" />
+
+     <TextView
+       android:id="@+id/tv3_2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       android:text="图书编号" />
+    
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit3_1"/>
+     <TextView
+       android:id="@+id/tv3_3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="修改名称" />
+
+    <EditText
+        android:id="@+id/edit3_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+     <TextView
+       android:id="@+id/tv3_4"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="修改价格" />
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numeric="decimal"
+        android:id="@+id/edit3_3"/>
+    <Button android:layout_height="wrap_content"
+        android:layout_width="100dp"
+          android:layout_gravity="center"
+          android:id="@+id/btn3_1"
+          android:text="修改"
+        />
+    
+</LinearLayout>

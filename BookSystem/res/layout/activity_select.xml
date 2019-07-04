@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".SelectActivity" >
+
+   <TableLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/SELECT_TableLayout"
+       android:stretchColumns="0">
+       <TableRow >
+          <TextView 
+              android:id="@+id/tv4_1"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20dp"
+              android:text="编号"/>
+
+          <TextView
+              android:id="@+id/tv4_2"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+                 android:textSize="20dp"
+              android:text="书名" />
+
+                <TextView 
+              android:id="@+id/tv4_3"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+                 android:textSize="20dp"
+              android:text="价格"/>
+       </TableRow>
+       
+   </TableLayout>
+
+</LinearLayout>
